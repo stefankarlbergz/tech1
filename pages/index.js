@@ -3,8 +3,8 @@ import Head from 'next/head'
 import Post from '../components/post'
 
 const client = require('contentful').createClient({
-  space: process.env.SPACE_ID,
-  accessToken: process.env.ACCESS_TOKEN
+  space: "3rnc1fzczbik",
+  accessToken: "LFv8DUnkOvSD3uP9RC55EFhoGaD4FdJFNqMfNyX8W4g"
 })
 
 function HomePage() {
