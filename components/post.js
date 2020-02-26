@@ -7,6 +7,7 @@ function Post({ alt, date, image, title, url }) {
         <div className="text">
           <h2>{title}</h2>
           <h4>{date}</h4>
+          test
         </div>
         <style jsx>{`
           .container {
